@@ -30,6 +30,18 @@ header h1 {
   flex-wrap: wrap;
 }
 
+#main1 {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#main2 {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .colum {
   width: 410px;
   padding: 0.5em 1em;
