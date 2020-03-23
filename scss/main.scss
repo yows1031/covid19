@@ -1,0 +1,123 @@
+$sp: 470px;  // スマホ
+@mixin sp {
+    @media (max-width: ($sp)) {
+      @content;
+    }
+}
+
+.backGround {
+    width: 960px;
+    margin: 0px auto;
+    background-color: yellowgreen;
+
+    @include sp {
+        width: 360px;
+    }
+}
+
+header {
+    height: 300px;
+    text-align: center;
+    font-size: 16pt;
+    color: whitesmoke;
+
+    @include sp {
+        height: 400px;
+    }
+
+    h1 {
+        padding-top: 40px;
+    }
+}
+
+#main {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.colum {
+    width: 410px;
+    padding: 0.5em 1em;
+    margin: 15px;
+    font-weight: bold;
+    background: #FFF;
+    border: solid 3px yellowgreen;
+    border-radius: 10px;
+
+    @include sp {
+        width: 310px;
+        margin: 15px auto;
+    }
+}
+
+.covid {
+    width: 410px;
+    height: 425px;
+
+    @include sp {
+        width: 320px;
+        height: 485px;
+    }
+}
+
+.statistics {
+    width: 410px;
+    height: 430px;
+
+    @include sp {
+        width: 320px;
+        height: 510px;
+    }
+}
+
+.prevention {
+    width: 410px;
+    height: 655px;
+
+    @include sp {
+        width: 320px;
+        height: 775px;
+    }
+}
+
+.attention {
+    width: 410px;
+    height: 750px;
+
+    @include sp {
+        width: 320px;
+        height: 970px;
+    }
+}
+
+.words {
+    width: 410px;
+    height: 910px;
+
+    @include sp {
+        width: 320px;
+        height: 1140px;
+    }
+}
+
+.sam5 {
+    width: 410px;
+    height: 450px;
+
+    @include sp {
+        width: 320px;
+        height: 550px;
+    }
+}
+
+footer {
+    height: 100px;
+    text-align: center;
+    font-size: 14pt;
+    color: whitesmoke;
+
+    @include sp {
+        height: 150px;
+    }
+}

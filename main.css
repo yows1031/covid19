@@ -1,0 +1,127 @@
+.backGround {
+  width: 960px;
+  margin: 0px auto;
+  background-color: yellowgreen;
+}
+@media (max-width: 470px) {
+  .backGround {
+    width: 360px;
+  }
+}
+
+header {
+  height: 300px;
+  text-align: center;
+  font-size: 16pt;
+  color: whitesmoke;
+}
+@media (max-width: 470px) {
+  header {
+    height: 400px;
+  }
+}
+header h1 {
+  padding-top: 40px;
+}
+
+#main {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.colum {
+  width: 410px;
+  padding: 0.5em 1em;
+  margin: 15px;
+  font-weight: bold;
+  background: #FFF;
+  border: solid 3px yellowgreen;
+  border-radius: 10px;
+}
+@media (max-width: 470px) {
+  .colum {
+    width: 310px;
+    margin: 15px auto;
+  }
+}
+
+.covid {
+  width: 410px;
+  height: 425px;
+}
+@media (max-width: 470px) {
+  .covid {
+    width: 320px;
+    height: 485px;
+  }
+}
+
+.statistics {
+  width: 410px;
+  height: 430px;
+}
+@media (max-width: 470px) {
+  .statistics {
+    width: 320px;
+    height: 510px;
+  }
+}
+
+.prevention {
+  width: 410px;
+  height: 655px;
+}
+@media (max-width: 470px) {
+  .prevention {
+    width: 320px;
+    height: 775px;
+  }
+}
+
+.attention {
+  width: 410px;
+  height: 750px;
+}
+@media (max-width: 470px) {
+  .attention {
+    width: 320px;
+    height: 970px;
+  }
+}
+
+.words {
+  width: 410px;
+  height: 910px;
+}
+@media (max-width: 470px) {
+  .words {
+    width: 320px;
+    height: 1140px;
+  }
+}
+
+.sam5 {
+  width: 410px;
+  height: 450px;
+}
+@media (max-width: 470px) {
+  .sam5 {
+    width: 320px;
+    height: 550px;
+  }
+}
+
+footer {
+  height: 100px;
+  text-align: center;
+  font-size: 14pt;
+  color: whitesmoke;
+}
+@media (max-width: 470px) {
+  footer {
+    height: 150px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
