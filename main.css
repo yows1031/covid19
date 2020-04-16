@@ -98,7 +98,7 @@ header h1 {
 @media (max-width: 470px) {
   .attention {
     width: 320px;
-    height: 970px;
+    height: 1160px;
   }
 }
 
@@ -109,7 +109,7 @@ header h1 {
 @media (max-width: 470px) {
   .words {
     width: 320px;
-    height: 1140px;
+    height: 1220px;
   }
 }
 
@@ -120,7 +120,7 @@ header h1 {
 @media (max-width: 470px) {
   .sam5 {
     width: 320px;
-    height: 550px;
+    height: 650px;
   }
 }
 
